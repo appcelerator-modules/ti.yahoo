@@ -3,6 +3,9 @@
 Use the Yahoo API in Appcelerator Titanium. This module was moved out of the Titanium 
 core-namespace "Ti.Yahoo" into an own module.
 
+## Note
+The Android version of this module is currently work in progress, so don't use it in production.
+
 ## Support
 Use [JIRA](http://jira.appcelerator.org) to report issues or ask our [TiSlack community](http://tislack.org) for help! :rocket:
 
