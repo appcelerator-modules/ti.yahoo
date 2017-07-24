@@ -33,7 +33,6 @@
 		DBC505B31EA658A400DC612D /* APSHTTPPostForm.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC505AD1EA658A400DC612D /* APSHTTPPostForm.h */; };
 		DBC505B41EA658A400DC612D /* APSHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC505AE1EA658A400DC612D /* APSHTTPRequest.h */; };
 		DBC505B51EA658A400DC612D /* APSHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC505AF1EA658A400DC612D /* APSHTTPResponse.h */; };
-		DBC505B61EA658A400DC612D /* libAPSHTTPClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC505B01EA658A400DC612D /* libAPSHTTPClient.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +59,6 @@
 		DBC505AD1EA658A400DC612D /* APSHTTPPostForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSHTTPPostForm.h; sourceTree = "<group>"; };
 		DBC505AE1EA658A400DC612D /* APSHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSHTTPRequest.h; sourceTree = "<group>"; };
 		DBC505AF1EA658A400DC612D /* APSHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSHTTPResponse.h; sourceTree = "<group>"; };
-		DBC505B01EA658A400DC612D /* libAPSHTTPClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPSHTTPClient.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
-				DBC505B61EA658A400DC612D /* libAPSHTTPClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +129,6 @@
 				DBC505AD1EA658A400DC612D /* APSHTTPPostForm.h */,
 				DBC505AE1EA658A400DC612D /* APSHTTPRequest.h */,
 				DBC505AF1EA658A400DC612D /* APSHTTPResponse.h */,
-				DBC505B01EA658A400DC612D /* libAPSHTTPClient.a */,
 			);
 			name = APSHTTPClient;
 			path = Classes/APSHTTPClient;
@@ -182,7 +178,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ti.yahoo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -322,12 +318,18 @@
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -379,12 +381,18 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

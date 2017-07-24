@@ -6,13 +6,13 @@ version: 1.0.0
 apiversion: 2
 architectures: armv7 arm64 i386 x86_64
 description: ti.yahoo
-author: Appcelerator
+author: Hans Knoechel
 license: Apache 2
-copyright: Copyright (c) 2017-Present by Appcelerator
+copyright: Copyright (c) 2017-present by Axway Appcelerator
 
 # these should not be edited
 name: ti.yahoo
 moduleid: ti.yahoo
 guid: cc72dfef-6e0d-4fe0-95df-14a11b408675
 platform: iphone
-minsdk: 6.0.0
+minsdk: 7.0.0

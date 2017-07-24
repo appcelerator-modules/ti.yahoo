@@ -1,0 +1,18 @@
+# General
+.DS_Store
+bin
+build
+
+# Xcode
+*~.nib/
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.xcworkspace/
+xcuserdata
+*.xcuserstate
+*.xcuserdata*
+
+# Module
+metadata.json
+*-iphone-*.zip

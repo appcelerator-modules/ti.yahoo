@@ -3,3 +3,7 @@
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
 #endif
+
+#ifndef TI_YAHOO
+#define TI_YAHOO
+#endif
