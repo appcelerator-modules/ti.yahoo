@@ -1,0 +1,4 @@
+/android/build
+/android/java-sources.txt
+/android/dist
+android/libs/*/*.so
